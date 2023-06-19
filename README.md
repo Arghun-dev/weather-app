@@ -61,8 +61,6 @@ Let's start by discussing the technologies and packages utilized in this project
 
 I chose to develop this project using TypeScript due to its numerous benefits. TypeScript helps catch bugs during development and provides excellent auto-complete features, enhancing productivity for developers.
 
-It's worth mentioning that, apart from React and TypeScript, I have not employed any other specific packages or technologies. As per your request, I aimed to implement the functionality without relying on external packages.
-
 **antd (Ant Design)**
 
 I opted to use the antd library as it provides a comprehensive set of pre-designed React components that are aesthetically pleasing, highly customizable, and offer a consistent user experience. With antd, I can quickly build professional-looking interfaces by leveraging its extensive range of UI elements such as buttons, forms, modals, and tables. This helps me save development time and effort, ensuring a polished and visually appealing application.
