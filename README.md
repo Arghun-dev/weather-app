@@ -79,4 +79,6 @@ Moreover, RTK Query seamlessly integrates with Redux Toolkit, allowing me to lev
 
 In summary, the adoption of antd, TypeScript, and RTK Query in this project helps me achieve a robust, visually appealing, and efficient React application. These packages enhance my development experience, improve code quality, and simplify data management, ultimately leading to a more seamless user experience.
 
+**I know it's not correct to push .env file, but I did it in this case, so you can run the application without any issue.**
+
 Thank you for exploring my project! If you have any further questions or feedback, please let me know.
