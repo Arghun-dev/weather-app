@@ -1,0 +1,56 @@
+@use "assets/variables";
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-slider-with-marks,
+.ant-slider-dot,
+.ant-slider-mark-text {
+  cursor: auto !important;
+}
+
+.ant-table-cell span {
+  cursor: auto !important;
+}
+
+.ant-result-icon .anticon {
+  color: variables.$dark-green !important;
+}
+
+.ant-table-row:last-child .ant-table-cell {
+  border-bottom: none;
+}
+
+.ant-slider-mark .ant-slider-mark-text:last-child span {
+  position: absolute;
+  top: -36px;
+  right: -10px;
+  color: variables.$red;
+  font-weight: 500;
+}
+
+.ant-slider-mark .ant-slider-mark-text:first-child span {
+  position: absolute;
+  top: -36px;
+  color: variables.$green;
+  font-weight: 500;
+}
+
+.ant-slider-mark .ant-slider-mark-text:nth-child(2) span {
+  color: variables.$orange;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 0px 0px 6px #e1e1e1;
+}
+
+.ant-progress {
+  margin-bottom: 0;
+}
